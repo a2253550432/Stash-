@@ -42,6 +42,8 @@ rules: #!replace
     - 'DOMAIN-KEYWORD,open.e.kuaishou,REJECT'
     - 'DOMAIN-KEYWORD,api.douban,REJECT'
     - 'DOMAIN-KEYWORD,erebor,REJECT'
+    - 'DOMAIN-KEYWORD,amonsul,REJECT'
+    - 'DOMAIN-KEYWORD,huichuan,REJECT'
     - 'DOMAIN-KEYWORD,ocsp2.apple,REJECT'
     - 'DOMAIN-KEYWORD,iosapps.itunes.apple,REJECT'
 
