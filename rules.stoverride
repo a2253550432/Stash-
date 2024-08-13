@@ -21,7 +21,6 @@ rules:
     - 'DOMAIN-KEYWORD,fundingchoice,REJECT'
     - 'DOMAIN-KEYWORD,app-measurement,REJECT'
     - 'DOMAIN-KEYWORD,googlesyndication,REJECT'
-    - 'DOMAIN-KEYWORD,frodo.douban,REJECT'
     - 'DOMAIN-KEYWORD,sdk.e.qq,REJECT'
     - 'DOMAIN-KEYWORD,tanx,REJECT'
     - 'DOMAIN-KEYWORD,mapi.m.jd,REJECT'
