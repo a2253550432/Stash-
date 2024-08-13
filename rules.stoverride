@@ -77,7 +77,7 @@ rules: #!replace
     - 'DOMAIN-KEYWORD,rr4--,REJECT'
     - 'DOMAIN-KEYWORD,rr5--,REJECT'
     - 'DOMAIN-KEYWORD,ggpht,REJECT'
-    - 'DOMAIN-KEYWORD,s.youtube,REJECT'
+    #- 'DOMAIN-KEYWORD,s.youtube,REJECT'
     - 'DOMAIN-KEYWORD,notifications-pa,REJECT'
     - 'DOMAIN-KEYWORD,suggestqueries,REJECT'
     - 'DOMAIN-KEYWORD,mtalk,REJECT'
