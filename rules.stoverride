@@ -48,7 +48,15 @@ rules: #!replace
     - 'DOMAIN-KEYWORD,iosapps.itunes.apple,REJECT'
     - 'DOMAIN-KEYWORD,sm.cn,REJECT'
     - 'DOMAIN-KEYWORD,uczzd.cn,REJECT'
-    - 'DOMAIN-KEYWORD,volc,REJECT'
+    - 'DOMAIN-KEYWORD,liangle,REJECT'
+    - 'DOMAIN-KEYWORD,tongdun,REJECT'
+    - 'DOMAIN-KEYWORD,fraud,REJECT'
+    - 'DOMAIN-KEYWORD,iqiyipic,REJECT'
+    - 'DOMAIN-KEYWORD,cupid.iqiyi,REJECT'
+    - 'DOMAIN-KEYWORD,open.douyin,REJECT'
+    - 'DOMAIN-KEYWORD,api.weibo,REJECT'
+    - 'DOMAIN-KEYWORD,dm.toutiao,REJECT'
+    - 'DOMAIN-KEYWORD,csj,REJECT'
 
 
     - 'DOMAIN,Dytts.tapfogdy.cyou,DIRECT'
