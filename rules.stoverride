@@ -58,6 +58,13 @@ rules: #!replace
     - 'DOMAIN-KEYWORD,dm.toutiao,REJECT'
     - 'DOMAIN-KEYWORD,csj,REJECT'
     - 'DOMAIN-KEYWORD,volc,REJECT'
+    - 'DOMAIN-KEYWORD,anythinktech,REJECT'
+    - 'DOMAIN-KEYWORD,ios.bugly,REJECT'
+    - 'DOMAIN-KEYWORD,hubcloud,REJECT'
+    - 'DOMAIN-KEYWORD,beizi,REJECT'
+    - 'DOMAIN-KEYWORD,gorgon.youdao,REJECT'
+    - 'DOMAIN-KEYWORD,bgg.baidu,REJECT'
+    - 'DOMAIN-KEYWORD,material.taobao,REJECT'
 
 
     - 'DOMAIN,Dytts.tapfogdy.cyou,DIRECT'
