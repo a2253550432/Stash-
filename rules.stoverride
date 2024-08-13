@@ -29,7 +29,7 @@ rules:
     - 'DOMAIN-KEYWORD,kepler.jd,REJECT'
     - 'DOMAIN-KEYWORD,knicks.jd,REJECT'
     - 'DOMAIN-KEYWORD,dsp-x.jd,REJECT'
-    - 'DOMAIN,janaapi.jd.com,REJECT'
+    - 'DOMAIN-KEYWORD,janaapi,REJECT'
     - 'DOMAIN-KEYWORD,toblog,REJECT'
     - 'DOMAIN-KEYWORD,-toutiao,REJECT'
     - 'DOMAIN-KEYWORD,xlog.jd,REJECT'
@@ -38,4 +38,3 @@ rules:
     - 'DOMAIN-KEYWORD,zijieapi,REJECT'
     - 'DOMAIN-KEYWORD,mssdk.volces,REJECT'
     - 'DOMAIN-KEYWORD,content-understand-strategy,REJECT'
-    - 'DOMAIN-SUFFIX,doubanio.com,REJECT'
