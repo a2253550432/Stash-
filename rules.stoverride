@@ -48,6 +48,7 @@ rules: #!replace
     - 'DOMAIN-KEYWORD,iosapps.itunes.apple,REJECT'
     - 'DOMAIN-KEYWORD,sm.cn,REJECT'
     - 'DOMAIN-KEYWORD,uczzd.cn,REJECT'
+    - 'DOMAIN-KEYWORD,volc,REJECT'
 
 
     - 'DOMAIN,Dytts.tapfogdy.cyou,DIRECT'
