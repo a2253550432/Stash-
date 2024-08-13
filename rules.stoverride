@@ -65,6 +65,12 @@ rules: #!replace
     - 'DOMAIN-KEYWORD,gorgon.youdao,REJECT'
     - 'DOMAIN-KEYWORD,bgg.baidu,REJECT'
     - 'DOMAIN-KEYWORD,material.taobao,REJECT'
+    - 'DOMAIN-KEYWORD,mazu.m,REJECT'
+    - 'DOMAIN-KEYWORD,sdk.taobao,REJECT'
+    - 'DOMAIN-KEYWORD,ip.taobao,REJECT'
+    - 'DOMAIN-KEYWORD,sdk.alicdn,REJECT'
+    - 'DOMAIN-KEYWORD,userlink.alicdn,REJECT'
+    - 'DOMAIN-KEYWORD,baichuan,REJECT'
 
 
     - 'DOMAIN,Dytts.tapfogdy.cyou,DIRECT'
