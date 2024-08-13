@@ -42,6 +42,5 @@ rules:
     - 'DOMAIN-KEYWORD,open.e.kuaishou,REJECT'
     - 'DOMAIN-KEYWORD,api.douban,REJECT'
     - 'DOMAIN-KEYWORD,erebor,REJECT'
-    - 'DOMAIN-KEYWORD,img9,REJECT'
 
  
