@@ -36,5 +36,12 @@ rules:
     - 'DOMAIN-KEYWORD,zijieapi,REJECT'
     - 'DOMAIN-KEYWORD,mssdk.volces,REJECT'
     - 'DOMAIN-KEYWORD,content-understand-strategy,REJECT'
-    - 'DOMAIN,janaapi.jd.com,REJECT'
+    - 'DOMAIN,janapi.jd.com,REJECT'
+    - 'DOMAIN-KEYWORD,push.douban,REJECT'
+    - 'DOMAIN-KEYWORD,wcp.taobao,REJECT'
+    - 'DOMAIN-KEYWORD,open.e.kuaishou,REJECT'
+    - 'DOMAIN-KEYWORD,zijieapi,REJECT'
+    - 'DOMAIN-KEYWORD,zijieapi,REJECT'
+    - 'DOMAIN-KEYWORD,zijieapi,REJECT'
+
  
