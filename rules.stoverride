@@ -79,7 +79,7 @@ rules: #!replace
     - 'DOMAIN-KEYWORD,ggpht,REJECT'
     - 'DOMAIN-KEYWORD,s.youtube,REJECT'
     - 'DOMAIN-KEYWORD,notifications-pa,REJECT'
-    #- 'DOMAIN-KEYWORD,suggestqueries,REJECT'
+    - 'DOMAIN-KEYWORD,suggestqueries,REJECT'
     - 'DOMAIN-KEYWORD,mtalk,REJECT'
     - 'DOMAIN-KEYWORD,redirector.google,REJECT'
     - 'DOMAIN-KEYWORD,encrypted-,REJECT'
