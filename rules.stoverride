@@ -1,3 +1,5 @@
+name: myrules
+desc: removeads
 rules:
     - 'DOMAIN-KEYWORD,googlead,REJECT'
     - 'DOMAIN-KEYWORD,ad,REJECT'
