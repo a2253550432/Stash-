@@ -57,6 +57,7 @@ rules: #!replace
     - 'DOMAIN-KEYWORD,api.weibo,REJECT'
     - 'DOMAIN-KEYWORD,dm.toutiao,REJECT'
     - 'DOMAIN-KEYWORD,csj,REJECT'
+    - 'DOMAIN-KEYWORD,volc,REJECT'
 
 
     - 'DOMAIN,Dytts.tapfogdy.cyou,DIRECT'
