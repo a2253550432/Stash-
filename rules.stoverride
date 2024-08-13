@@ -37,4 +37,4 @@ rules:
     - 'DOMAIN-KEYWORD,zijieapi,REJECT'
     - 'DOMAIN-KEYWORD,mssdk.volces,REJECT'
     - 'DOMAIN-KEYWORD,content-understand-strategy,REJECT'
-    - 'DOMAIN-REGEX,goo[a-z],REJECT'
+ 
