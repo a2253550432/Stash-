@@ -77,7 +77,12 @@ rules: #!replace
     - 'DOMAIN-KEYWORD,fengkong,REJECT'
     - 'DOMAIN-KEYWORD,miaozhen,REJECT'
     - 'DOMAIN-KEYWORD,fengkuangtiyu,REJECT'
-    
+    - 'DOMAIN-KEYWORD,apimobile.meituan,REJECT'
+    - 'DOMAIN-KEYWORD,adukwai,REJECT'
+    - 'DOMAIN-KEYWORD,hoopchina,REJECT'
+    - 'DOMAIN-KEYWORD,goblin.hupu,REJECT'
+    - 'DOMAIN-KEYWORD,hermes.hupu,REJECT'
+
     #- 'DOMAIN-KEYWORD,rr1--,REJECT'
     #- 'DOMAIN-KEYWORD,rr2--,REJECT'
     #- 'DOMAIN-KEYWORD,rr3--,REJECT'
