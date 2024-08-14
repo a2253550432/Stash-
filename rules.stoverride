@@ -2,7 +2,7 @@ name: myrules
 desc: removeads
 rules: #!replace
     - 'DOMAIN-KEYWORD,googlead,REJECT'
-    - 'DOMAIN-KEYWORD,ad,REJECT'
+    - 'DOMAIN-SUFFIX,ad.com,REJECT'
     - 'DOMAIN-KEYWORD,nativesdks,REJECT'
     - 'DOMAIN-KEYWORD,unity3d,REJECT'
     - 'DOMAIN-KEYWORD,analytics-services,REJECT'
