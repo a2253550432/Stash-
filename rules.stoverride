@@ -71,6 +71,13 @@ rules: #!replace
     - 'DOMAIN-KEYWORD,sdk.alicdn,REJECT'
     - 'DOMAIN-KEYWORD,userlink.alicdn,REJECT'
     - 'DOMAIN-KEYWORD,baichuan,REJECT'
+
+
+    # 虎扑
+    - 'DOMAIN-KEYWORD,fengkong,REJECT'
+    - 'DOMAIN-KEYWORD,miaozhen,REJECT'
+    - 'DOMAIN-KEYWORD,fengkuangtiyu,REJECT'
+    
     #- 'DOMAIN-KEYWORD,rr1--,REJECT'
     #- 'DOMAIN-KEYWORD,rr2--,REJECT'
     #- 'DOMAIN-KEYWORD,rr3--,REJECT'
