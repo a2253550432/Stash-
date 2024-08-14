@@ -79,7 +79,6 @@ rules: #!replace
     - 'DOMAIN-KEYWORD,fengkuangtiyu,REJECT'
     - 'DOMAIN-KEYWORD,apimobile.meituan,REJECT'
     - 'DOMAIN-KEYWORD,adukwai,REJECT'
-    - 'DOMAIN-KEYWORD,hoopchina,REJECT'
     - 'DOMAIN-KEYWORD,goblin.hupu,REJECT'
     - 'DOMAIN-KEYWORD,hermes.hupu,REJECT'
 
