@@ -92,7 +92,8 @@ rules: #!replace
     - 'DOMAIN-KEYWORD,kadmimage,REJECT'
     - 'DOMAIN-KEYWORD,api.im,REJECT'
     - 'DOMAIN-KEYWORD,dp.im,REJECT'
-    - 'DOMAIN-KEYWORD,gateway.im,REJECT'
+    #- 'DOMAIN-KEYWORD,gateway.im,REJECT'
+    
     #- 'DOMAIN-KEYWORD,rr1--,REJECT'
     #- 'DOMAIN-KEYWORD,rr2--,REJECT'
     #- 'DOMAIN-KEYWORD,rr3--,REJECT'
