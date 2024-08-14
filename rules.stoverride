@@ -54,7 +54,7 @@ rules: #!replace
     - 'DOMAIN-KEYWORD,iqiyipic,REJECT'
     - 'DOMAIN-KEYWORD,cupid.iqiyi,REJECT'
     - 'DOMAIN-KEYWORD,open.douyin,REJECT'
-    - 'DOMAIN-KEYWORD,api.weibo,REJECT'
+    #- 'DOMAIN-KEYWORD,api.weibo,REJECT'
     - 'DOMAIN-KEYWORD,dm.toutiao,REJECT'
     - 'DOMAIN-KEYWORD,csj,REJECT'
     - 'DOMAIN-KEYWORD,volc,REJECT'
