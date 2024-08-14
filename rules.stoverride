@@ -90,9 +90,15 @@ rules: #!replace
     - 'DOMAIN-KEYWORD,sdkmonitor,REJECT'
     - 'DOMAIN-KEYWORD,bootpreload,REJECT'
     - 'DOMAIN-KEYWORD,kadmimage,REJECT'
-    - 'DOMAIN-KEYWORD,api.im,REJECT'
-    - 'DOMAIN-KEYWORD,dp.im,REJECT'
+    #- 'DOMAIN-KEYWORD,api.im,REJECT'
+    #- 'DOMAIN-KEYWORD,dp.im,REJECT'
+    #- 'DOMAIN-KEYWORD,gw.im,REJECT'
     #- 'DOMAIN-KEYWORD,gateway.im,REJECT'
+    
+    - 'DOMAIN-KEYWORD,im.weibo,REJECT'
+    - 'DOMAIN-KEYWORD,ut.taobao,REJECT'
+    - 'DOMAIN-KEYWORD,sdkclick,REJECT'
+    - 'DOMAIN-KEYWORD,vs.biz,REJECT'
     
     #- 'DOMAIN-KEYWORD,rr1--,REJECT'
     #- 'DOMAIN-KEYWORD,rr2--,REJECT'
