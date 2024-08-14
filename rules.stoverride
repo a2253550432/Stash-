@@ -82,6 +82,17 @@ rules: #!replace
     - 'DOMAIN-KEYWORD,goblin.hupu,REJECT'
     - 'DOMAIN-KEYWORD,hermes.hupu,REJECT'
 
+    # 微博
+    - 'DOMAIN-KEYWORD,sdkapp.uve,REJECT'
+    - 'DOMAIN-KEYWORD,adstrategy,REJECT'
+    - 'DOMAIN-KEYWORD,wbapp.uve,REJECT'
+    - 'DOMAIN-KEYWORD,sdkaction,REJECT'
+    - 'DOMAIN-KEYWORD,sdkmonitor,REJECT'
+    - 'DOMAIN-KEYWORD,bootpreload,REJECT'
+    - 'DOMAIN-KEYWORD,kadmimage,REJECT'
+    - 'DOMAIN-KEYWORD,api.im,REJECT'
+    - 'DOMAIN-KEYWORD,dp.im,REJECT'
+    - 'DOMAIN-KEYWORD,gateway.im,REJECT'
     #- 'DOMAIN-KEYWORD,rr1--,REJECT'
     #- 'DOMAIN-KEYWORD,rr2--,REJECT'
     #- 'DOMAIN-KEYWORD,rr3--,REJECT'
