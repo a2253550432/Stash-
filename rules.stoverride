@@ -94,12 +94,14 @@ rules: #!replace
     #- 'DOMAIN-KEYWORD,dp.im,REJECT'
     #- 'DOMAIN-KEYWORD,gw.im,REJECT'
     #- 'DOMAIN-KEYWORD,gateway.im,REJECT'
-    
     - 'DOMAIN-KEYWORD,im.weibo,REJECT'
     - 'DOMAIN-KEYWORD,ut.taobao,REJECT'
     - 'DOMAIN-KEYWORD,sdkclick,REJECT'
     - 'DOMAIN-KEYWORD,vs.biz,REJECT'
     
+    # 游戏
+    - 'DOMAIN-KEYWORD,adsystem,REJECT'
+
     #- 'DOMAIN-KEYWORD,rr1--,REJECT'
     #- 'DOMAIN-KEYWORD,rr2--,REJECT'
     #- 'DOMAIN-KEYWORD,rr3--,REJECT'
