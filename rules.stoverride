@@ -1,6 +1,10 @@
 name: myrules
 desc: removeads
 rules: #!replace
+
+    
+    - 'DOMAIN-KEYWORD,weread,DIRECT' # 名字里带ad的采用白名单方法减少错杀
+    - 'DOMAIN-KEYWORD,ad,REJECT'
     - 'DOMAIN-KEYWORD,googlead,REJECT'
     - 'DOMAIN-SUFFIX,ad.com,REJECT'
     - 'DOMAIN-KEYWORD,nativesdks,REJECT'
@@ -101,6 +105,17 @@ rules: #!replace
     
     # 游戏
     - 'DOMAIN-KEYWORD,adsystem,REJECT'
+    - 'DOMAIN-KEYWORD,mintegral,REJECT'
+    - 'DOMAIN-KEYWORD,tcsdzz,REJECT'
+    - 'DOMAIN-KEYWORD,afunap,REJECT'
+    - 'DOMAIN-KEYWORD,17zjh,REJECT'
+    - 'DOMAIN-KEYWORD,pos.baidu,REJECT'
+    - 'DOMAIN-KEYWORD,link-sx07.netease,REJECT'
+    - 'DOMAIN-KEYWORD,sigmob,REJECT'
+    - 'DOMAIN-KEYWORD,jpush,REJECT'
+    - 'DOMAIN-KEYWORD,bes.baidu,REJECT'
+    - 'DOMAIN-KEYWORD,wanproxy,REJECT'
+
 
     #- 'DOMAIN-KEYWORD,rr1--,REJECT'
     #- 'DOMAIN-KEYWORD,rr2--,REJECT'
@@ -117,6 +132,7 @@ rules: #!replace
     #- 'DOMAIN-KEYWORD,play.googleapis,REJECT'
     #- 'DOMAIN-KEYWORD,comm-cohort,REJECT'
 
+# 国产游戏广告
 
     - 'DOMAIN,Dytts.tapfogdy.cyou,DIRECT'
     - 'DOMAIN-SUFFIX,services.googleapis.cn,TapFog'
