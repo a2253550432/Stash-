@@ -106,7 +106,6 @@ rules: #!replace
     # 游戏
     - 'DOMAIN-KEYWORD,adsystem,REJECT'
     - 'DOMAIN-KEYWORD,mintegral,REJECT'
-    - 'DOMAIN-KEYWORD,tcsdzz,REJECT'
     - 'DOMAIN-KEYWORD,afunap,REJECT'
     - 'DOMAIN-KEYWORD,17zjh,REJECT'
     - 'DOMAIN-KEYWORD,pos.baidu,REJECT'
