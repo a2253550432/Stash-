@@ -23,7 +23,7 @@ jobs:
       # 安装所需依赖库
       - name: Install dependencies
         run: |
-          pip install requests re base64 urllib3 pyyaml
+          pip install requests pyyaml
 
       # 运行 Python 脚本
       - name: Run conversion.py
