@@ -1,39 +1,38 @@
-name: Python Package using Conda
+name: Run conversion.py and upload file
 
-on: 
+on:
   schedule:
-    - cron: '0 6 * * *'
-  workflow_dispatch:
+    - cron: '0 6 * * *'  # 每天 UTC 时间 6:00 运行（可根据需求调整）
+  workflow_dispatch:      # 支持手动触发
 
 jobs:
-  build-linux:
+  run_script:
     runs-on: ubuntu-latest
-    strategy:
-      max-parallel: 5
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v3
-      with:
-        python-version: '3.10'
-    - name: Add conda to system path
-      run: |
-        # $CONDA is an environment variable pointing to the root of the miniconda directory
-        echo $CONDA/bin >> $GITHUB_PATH
-    - name: Install dependencies
-      run: |
-        conda env update --file environment.yml --name base
-    - name: Lint with flake8
-      run: |
-        conda install flake8
-        # stop the build if there are Python syntax errors or undefined names
-        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
-        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
-        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-    - name: Test with pytest
-      run: |
-        conda install pytest
-        pytest
-    - name: run conversion.py
-      run: python conversion.py
+      # 检出代码
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 设置 Python 环境
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'  # 设置需要的 Python 版本，可以指定为具体版本号如 3.9
+
+      # 安装所需依赖库
+      - name: Install dependencies
+        run: |
+          pip install requests re base64 urllib3 pyyaml
+
+      # 运行 Python 脚本
+      - name: Run conversion.py
+        run: python conversion.py
+
+      # 上传生成的文件到 GitHub Release
+      - name: Upload to GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: output.yaml  # 生成文件路径
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
