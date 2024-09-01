@@ -30,14 +30,25 @@ jobs:
         run: python conversion.py
         
       # 创建一个 Git 标签和 Release
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        with:
-          tag_name: v1.0.${{ github.run_number }}   # 根据运行次数动态生成标签
-          release_name: "Release v1.0.${{ github.run_number }}"
-          draft: false
-          prerelease: false
+      # - name: Create Release
+      #   id: create_release
+      #   uses: actions/create-release@v1
+      #   with:
+      #     tag_name: v1.0.${{ github.run_number }}   # 根据运行次数动态生成标签
+      #     release_name: "Release v1.0.${{ github.run_number }}"
+      #     draft: false
+      #     prerelease: false
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 创建一个 Git 标签
+      - name: Create Git tag
+        run: |
+          TAG_NAME=v1.0.${{ github.run_number }}
+          git config --local user.name "github-actions"
+          git config --local user.email "actions@github.com"
+          git tag $TAG_NAME
+          git push origin $TAG_NAME
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
