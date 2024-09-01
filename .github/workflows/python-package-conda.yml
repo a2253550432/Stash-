@@ -28,7 +28,19 @@ jobs:
       # 运行 Python 脚本
       - name: Run conversion.py
         run: python conversion.py
-
+        
+      # 创建一个 Git 标签和 Release
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        with:
+          tag_name: v1.0.${{ github.run_number }}   # 根据运行次数动态生成标签
+          release_name: "Release v1.0.${{ github.run_number }}"
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
       # 上传生成的文件到 GitHub Release
       - name: Upload to GitHub Release
         uses: softprops/action-gh-release@v1
