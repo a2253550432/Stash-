@@ -46,7 +46,11 @@ rules:
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,openai
   - DOMAIN-SUFFIX,sentry.io,openai
   - DOMAIN-SUFFIX,stripe.com,openai  
-  - DOMAIN-KEYWORD,weread,DIRECT # 名字里带ad的采用白名单方法减少错杀
+  
+
+  # 名字里带ad的采用白名单方法减少错杀
+  - DOMAIN-KEYWORD,weread,DIRECT  # 微信读书
+  - DOMAIN-KEYWORD,pandadastudio,DIRECT # 某游戏
   - DOMAIN-KEYWORD,ad,REJECT
   - DOMAIN-KEYWORD,googlead,REJECT
   - DOMAIN-SUFFIX,ad.com,REJECT
