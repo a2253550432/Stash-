@@ -60,6 +60,10 @@ servers = get_servers()
 with open("my.yaml",'r',encoding='utf-8') as file:
     datamy = yaml.safe_load(file)
 
+with open("adremoval.yaml",'r',encoding='utf-8') as file:
+    adremoval = yaml.safe_load(file)
+
+datamy['rules'] = adremoval['rules']+datamy['rules']
 
 datamy['proxies'] = servers
 

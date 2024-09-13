@@ -42,8 +42,8 @@ proxy-groups:
 - name: 手动切换
   type: select
   proxies: &id001
-  - 剩余流量：943.37 GB
-  - 距离下次重置剩余：16 天
+  - 剩余流量：933.99 GB
+  - 距离下次重置剩余：15 天
   - 套餐到期：2025-02-28
   - 【永久域名Tafog.com】
   - Bronze-香港-BGP-01
@@ -171,8 +171,8 @@ proxy-groups:
 - name: 其他
   type: url-test
   proxies:
-  - 剩余流量：943.37 GB
-  - 距离下次重置剩余：16 天
+  - 剩余流量：933.99 GB
+  - 距离下次重置剩余：15 天
   - 套餐到期：2025-02-28
   - 【永久域名Tafog.com】
   - Silver-泰国-商宽-01
@@ -199,22 +199,6 @@ proxy-groups:
   - 自动选择
   - DIRECT
 rules:
-- DOMAIN-KEYWORD,openai,openai
-- DOMAIN-SUFFIX,auth0.com,openai
-- DOMAIN-SUFFIX,challenges.cloudflare.com,openai
-- DOMAIN-SUFFIX,chatgpt.com,openai
-- DOMAIN-SUFFIX,client-api.arkoselabs.com,openai
-- DOMAIN-SUFFIX,events.statsigapi.net,openai
-- DOMAIN-SUFFIX,featuregates.org,openai
-- DOMAIN-SUFFIX,identrust.com,openai
-- DOMAIN-SUFFIX,intercom.io,openai
-- DOMAIN-SUFFIX,intercomcdn.com,openai
-- DOMAIN-SUFFIX,oaistatic.com,openai
-- DOMAIN-SUFFIX,oaiusercontent.com,openai
-- DOMAIN-SUFFIX,openai.com,openai
-- DOMAIN-SUFFIX,openaiapi-site.azureedge.net,openai
-- DOMAIN-SUFFIX,sentry.io,openai
-- DOMAIN-SUFFIX,stripe.com,openai
 - DOMAIN-KEYWORD,googlead,REJECT
 - DOMAIN-SUFFIX,ad.com,REJECT
 - DOMAIN-KEYWORD,nativesdks,REJECT
@@ -317,6 +301,22 @@ rules:
 - DOMAIN-KEYWORD,iad,REJECT
 - DOMAIN-KEYWORD,dsp-impr2,REJECT
 - DOMAIN-KEYWORD,fn.music.163,REJECT
+- DOMAIN-KEYWORD,openai,openai
+- DOMAIN-SUFFIX,auth0.com,openai
+- DOMAIN-SUFFIX,challenges.cloudflare.com,openai
+- DOMAIN-SUFFIX,chatgpt.com,openai
+- DOMAIN-SUFFIX,client-api.arkoselabs.com,openai
+- DOMAIN-SUFFIX,events.statsigapi.net,openai
+- DOMAIN-SUFFIX,featuregates.org,openai
+- DOMAIN-SUFFIX,identrust.com,openai
+- DOMAIN-SUFFIX,intercom.io,openai
+- DOMAIN-SUFFIX,intercomcdn.com,openai
+- DOMAIN-SUFFIX,oaistatic.com,openai
+- DOMAIN-SUFFIX,oaiusercontent.com,openai
+- DOMAIN-SUFFIX,openai.com,openai
+- DOMAIN-SUFFIX,openaiapi-site.azureedge.net,openai
+- DOMAIN-SUFFIX,sentry.io,openai
+- DOMAIN-SUFFIX,stripe.com,openai
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
@@ -832,14 +832,14 @@ rules:
 - GEOIP,CN,DIRECT
 - MATCH,节点选择
 proxies:
-- name: 剩余流量：943.37 GB
+- name: 剩余流量：933.99 GB
   type: trojan
   server: zz.xgzl.fogvip-zz.uk
   port: 50069
   password: b506e93c-61bf-4ab3-b2cb-6aa202fa7064
   udp: true
   sni: ld.xgzl02.yuiuingkig.icu
-- name: 距离下次重置剩余：16 天
+- name: 距离下次重置剩余：15 天
   type: trojan
   server: zz.xgzl.fogvip-zz.uk
   port: 50069
