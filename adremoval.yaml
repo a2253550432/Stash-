@@ -1,5 +1,5 @@
 proxies:
-  - {}
+  - {name: ha, server: ha.ha, port: 50069, client-fingerprint: chrome, type: trojan, password: haha, sni: cc.dd, skip-cert-verify: false}
 rules:
   - DOMAIN-KEYWORD,googlead,REJECT
   - DOMAIN-SUFFIX,ad.com,REJECT
