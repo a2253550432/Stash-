@@ -1,3 +1,5 @@
+proxies:
+
 rules:
   - DOMAIN-KEYWORD,googlead,REJECT
   - DOMAIN-SUFFIX,ad.com,REJECT
