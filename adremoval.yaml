@@ -168,11 +168,11 @@ rules:
   - DOMAIN-KEYWORD,m.ctripins, REJECT
   - DOMAIN-KEYWORD,cpush.ctrip, REJECT
   - DOMAIN-KEYWORD,ma-adx, REJECT
-  - DOMAIN-KEYWORD,dimg04, REJECT
+  # - DOMAIN-KEYWORD,dimg04, REJECT # 图片加载
   - DOMAIN-KEYWORD,im3.ctrip, REJECT
   - DOMAIN-KEYWORD,m.ctrip, REJECT
   - DOMAIN-KEYWORD,tcpgateway-sgp, REJECT
-  - DOMAIN-KEYWORD,nlb.aliyuncs, REJECT
+  # - DOMAIN-KEYWORD,nlb.aliyuncs, REJECT #查票接口
   - DOMAIN-KEYWORD,pages.ctrip, REJECT
   - DOMAIN-KEYWORD,overseamobileap.ctrip, REJECT
   - DOMAIN-KEYWORD,vod2.myqcloud, REJECT
