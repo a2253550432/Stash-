@@ -198,6 +198,10 @@ rules:
   - DOMAIN-KEYWORD,mirroraliov.bilivideo, REJECT
   - DOMAIN-KEYWORD,api.vc.bilibili, REJECT
   - DOMAIN-KEYWORD,api.biliapi, REJECT
+  - DOMAIN-KEYWORD,akamaized, REJECT
+  - DOMAIN-KEYWORD,show.bilibili, REJECT
+  - DOMAIN-KEYWORD,mall.dreamcast, REJECT
+
 
   #- DOMAIN-KEYWORD,mobileconfig-gateway.hellobike, REJECT
   #- DOMAIN-KEYWORD,api.hellobike, REJECT
