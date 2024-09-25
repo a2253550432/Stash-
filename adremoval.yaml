@@ -206,7 +206,7 @@ rules:
   # youtube
   - DOMAIN-KEYWORD,suggestqueries,REJECT
   - DOMAIN-KEYWORD,s.youtube,REJECT
-  - DOMAIN-KEYWORD,ggpht,REJECT
+  #- DOMAIN-KEYWORD,ggpht,REJECT
   - DOMAIN-KEYWORD,notifications-pa.googleapis,REJECT
   - DOMAIN-KEYWORD,googleusercontent,REJECT
   - DOMAIN-KEYWORD,mtalk,REJECT
