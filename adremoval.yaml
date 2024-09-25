@@ -146,6 +146,30 @@ rules:
   - DOMAIN-KEYWORD,caldav.163, REJECT
   - DOMAIN-KEYWORD,nex.163, REJECT
 
+#hellobike
+  - DOMAIN-KEYWORD,beacon-api.aliyuncs, REJECT
+  - DOMAIN-KEYWORD,mpaasmdap, REJECT
+  - DOMAIN-KEYWORD,verify.mob, REJECT
+  - DOMAIN-KEYWORD,amap, REJECT
+  - DOMAIN-KEYWORD,ttbike, REJECT
+  - DOMAIN-KEYWORD,gm.mob, REJECT
+  - DOMAIN-KEYWORD,aibrain-decision-flow, REJECT
+  - DOMAIN-KEYWORD,mpaasgw, REJECT
+  - DOMAIN-KEYWORD,api.weibo, REJECT
+  - DOMAIN-KEYWORD,umeng, REJECT
+  - DOMAIN-KEYWORD,fingerprint-upload, REJECT
+  - DOMAIN-KEYWORD,moment-cdn, REJECT
+  - DOMAIN-KEYWORD,dualstack, REJECT
+  - DOMAIN-KEYWORD,ronghub, REJECT
+  - DOMAIN-KEYWORD,hitchregistergw, REJECT
+  - DOMAIN-KEYWORD,apmgw, REJECT
+  
+  #- DOMAIN-KEYWORD,mobileconfig-gateway.hellobike, REJECT
+  #- DOMAIN-KEYWORD,api.hellobike, REJECT
+  #- DOMAIN-KEYWORD,ip.hellobike, REJECT
+  #- DOMAIN-KEYWORD,taxiapi.hellobike, REJECT
+  #- DOMAIN-KEYWORD,location-based-services.hellobike, REJECT
+  #- DOMAIN-KEYWORD,mapi.hellobike, REJECT
 
   #- DOMAIN-KEYWORD,rr1--,REJECT
   #- DOMAIN-KEYWORD,rr2--,REJECT
