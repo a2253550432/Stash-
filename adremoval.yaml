@@ -123,6 +123,29 @@ rules:
   - DOMAIN-KEYWORD,iad,REJECT
   - DOMAIN-KEYWORD,dsp-impr2,REJECT
   - DOMAIN-KEYWORD,fn.music.163,REJECT
+  - DOMAIN-KEYWORD,wannos.127.net, REJECT
+  - DOMAIN-KEYWORD,lbs.netease.im, REJECT
+  - DOMAIN-KEYWORD,protocol.mail, REJECT
+  - DOMAIN-KEYWORD,impdsp.meituan, REJECT
+  - DOMAIN-KEYWORD,fancyapi, REJECT
+  - DOMAIN-KEYWORD,api.mobrtb, REJECT
+  - DOMAIN-KEYWORD,adintl, REJECT
+  - DOMAIN-KEYWORD,s3plus.meituan, REJECT
+  - DOMAIN-KEYWORD,dr.netease, REJECT
+  - DOMAIN-KEYWORD,appconf.mail, REJECT
+  - DOMAIN-KEYWORD,clientlog3.music, REJECT
+  - DOMAIN-KEYWORD,azure.yunxinfw, REJECT
+  - DOMAIN-KEYWORD,yp.ws.126, REJECT
+  - DOMAIN-KEYWORD,dsp.pinduoduo, REJECT
+  - DOMAIN-KEYWORD,uyunad, REJECT
+  
+  - DOMAIN-KEYWORD,sdk.reg, REJECT
+  - DOMAIN-KEYWORD,mail-activity.nos-jd, REJECT
+  - DOMAIN-KEYWORD,dashi, REJECT
+  - DOMAIN-KEYWORD,countly.mail.163, REJECT
+  - DOMAIN-KEYWORD,caldav.163, REJECT
+  - DOMAIN-KEYWORD,nex.163, REJECT
+
 
   #- DOMAIN-KEYWORD,rr1--,REJECT
   #- DOMAIN-KEYWORD,rr2--,REJECT
