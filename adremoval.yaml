@@ -150,7 +150,7 @@ rules:
   - DOMAIN-KEYWORD,beacon-api.aliyuncs, REJECT
   - DOMAIN-KEYWORD,mpaasmdap, REJECT
   - DOMAIN-KEYWORD,verify.mob, REJECT
-  - DOMAIN-KEYWORD,amap, REJECT
+  #- DOMAIN-KEYWORD,amap, REJECT 定位服务，不能reject
   - DOMAIN-KEYWORD,ttbike, REJECT
   - DOMAIN-KEYWORD,gm.mob, REJECT
   - DOMAIN-KEYWORD,aibrain-decision-flow, REJECT
