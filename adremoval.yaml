@@ -176,6 +176,26 @@ rules:
   - DOMAIN-KEYWORD,pages.ctrip, REJECT
   - DOMAIN-KEYWORD,overseamobileap.ctrip, REJECT
   - DOMAIN-KEYWORD,vod2.myqcloud, REJECT
+
+
+  # bilibili
+  - DOMAIN-KEYWORD,staticcos, REJECT
+  - DOMAIN-KEYWORD,api.bilibili, REJECT
+  - DOMAIN-KEYWORD,data.bilibili, REJECT
+  - DOMAIN-KEYWORD,member.bilibili, REJECT
+  - DOMAIN-KEYWORD,api.biligame, REJECT
+  - DOMAIN-KEYWORD,httpdns.bilivideo, REJECT
+  - DOMAIN-KEYWORD,mirrorcos.bilivideo, REJECT
+  - DOMAIN-KEYWORD,api.live.bilibili, REJECT
+  - DOMAIN-KEYWORD,hdslb, REJECT
+  - DOMAIN-KEYWORD,mall.bilibili, REJECT
+  - DOMAIN-KEYWORD,cm.bilibili, REJECT
+  - DOMAIN-KEYWORD,dataflow.biliapi, REJECT
+  - DOMAIN-KEYWORD,pay.bilibili, REJECT
+  - DOMAIN-KEYWORD,app.bilibili, REJECT
+  - DOMAIN-KEYWORD,broadcast.chat.bilibili, REJECT
+  - DOMAIN-KEYWORD,grpc.biliapi, REJECT
+
   #- DOMAIN-KEYWORD,mobileconfig-gateway.hellobike, REJECT
   #- DOMAIN-KEYWORD,api.hellobike, REJECT
   #- DOMAIN-KEYWORD,ip.hellobike, REJECT
