@@ -43,7 +43,7 @@ proxy-groups:
   type: select
   proxies: &id001
   - 剩余流量：909.02 GB
-  - 距离下次重置剩余：4 天
+  - 距离下次重置剩余：3 天
   - 套餐到期：2025-02-28
   - 【永久域名Tafog.com】
   - Bronze-香港-BGP-01
@@ -172,7 +172,7 @@ proxy-groups:
   type: url-test
   proxies:
   - 剩余流量：909.02 GB
-  - 距离下次重置剩余：4 天
+  - 距离下次重置剩余：3 天
   - 套餐到期：2025-02-28
   - 【永久域名Tafog.com】
   - Silver-泰国-商宽-01
@@ -301,6 +301,67 @@ rules:
 - DOMAIN-KEYWORD,iad,REJECT
 - DOMAIN-KEYWORD,dsp-impr2,REJECT
 - DOMAIN-KEYWORD,fn.music.163,REJECT
+- DOMAIN-KEYWORD,wannos.127.net, REJECT
+- DOMAIN-KEYWORD,lbs.netease.im, REJECT
+- DOMAIN-KEYWORD,protocol.mail, REJECT
+- DOMAIN-KEYWORD,impdsp.meituan, REJECT
+- DOMAIN-KEYWORD,fancyapi, REJECT
+- DOMAIN-KEYWORD,api.mobrtb, REJECT
+- DOMAIN-KEYWORD,adintl, REJECT
+- DOMAIN-KEYWORD,s3plus.meituan, REJECT
+- DOMAIN-KEYWORD,dr.netease, REJECT
+- DOMAIN-KEYWORD,appconf.mail, REJECT
+- DOMAIN-KEYWORD,clientlog3.music, REJECT
+- DOMAIN-KEYWORD,azure.yunxinfw, REJECT
+- DOMAIN-KEYWORD,yp.ws.126, REJECT
+- DOMAIN-KEYWORD,dsp.pinduoduo, REJECT
+- DOMAIN-KEYWORD,uyunad, REJECT
+- DOMAIN-KEYWORD,sdk.reg, REJECT
+- DOMAIN-KEYWORD,mail-activity.nos-jd, REJECT
+- DOMAIN-KEYWORD,dashi, REJECT
+- DOMAIN-KEYWORD,countly.mail.163, REJECT
+- DOMAIN-KEYWORD,caldav.163, REJECT
+- DOMAIN-KEYWORD,nex.163, REJECT
+- DOMAIN-KEYWORD,beacon-api.aliyuncs, REJECT
+- DOMAIN-KEYWORD,mpaasmdap, REJECT
+- DOMAIN-KEYWORD,verify.mob, REJECT
+- DOMAIN-KEYWORD,ttbike, REJECT
+- DOMAIN-KEYWORD,gm.mob, REJECT
+- DOMAIN-KEYWORD,aibrain-decision-flow, REJECT
+- DOMAIN-KEYWORD,mpaasgw, REJECT
+- DOMAIN-KEYWORD,api.weibo, REJECT
+- DOMAIN-KEYWORD,umeng, REJECT
+- DOMAIN-KEYWORD,fingerprint-upload, REJECT
+- DOMAIN-KEYWORD,moment-cdn, REJECT
+- DOMAIN-KEYWORD,dualstack, REJECT
+- DOMAIN-KEYWORD,ronghub, REJECT
+- DOMAIN-KEYWORD,hitchregistergw, REJECT
+- DOMAIN-KEYWORD,apmgw, REJECT
+- DOMAIN-KEYWORD,m.ctripins, REJECT
+- DOMAIN-KEYWORD,cpush.ctrip, REJECT
+- DOMAIN-KEYWORD,ma-adx, REJECT
+- DOMAIN-KEYWORD,im3.ctrip, REJECT
+- DOMAIN-KEYWORD,m.ctrip, REJECT
+- DOMAIN-KEYWORD,tcpgateway-sgp, REJECT
+- DOMAIN-KEYWORD,pages.ctrip, REJECT
+- DOMAIN-KEYWORD,overseamobileap.ctrip, REJECT
+- DOMAIN-KEYWORD,vod2.myqcloud, REJECT
+- DOMAIN-KEYWORD,staticcos, REJECT
+- DOMAIN-KEYWORD,api.bilibili, REJECT
+- DOMAIN-KEYWORD,data.bilibili, REJECT
+- DOMAIN-KEYWORD,member.bilibili, REJECT
+- DOMAIN-KEYWORD,api.biligame, REJECT
+- DOMAIN-KEYWORD,httpdns.bilivideo, REJECT
+- DOMAIN-KEYWORD,mirrorcos.bilivideo, REJECT
+- DOMAIN-KEYWORD,api.live.bilibili, REJECT
+- DOMAIN-KEYWORD,hdslb, REJECT
+- DOMAIN-KEYWORD,mall.bilibili, REJECT
+- DOMAIN-KEYWORD,cm.bilibili, REJECT
+- DOMAIN-KEYWORD,dataflow.biliapi, REJECT
+- DOMAIN-KEYWORD,pay.bilibili, REJECT
+- DOMAIN-KEYWORD,app.bilibili, REJECT
+- DOMAIN-KEYWORD,broadcast.chat.bilibili, REJECT
+- DOMAIN-KEYWORD,grpc.biliapi, REJECT
 - DOMAIN-KEYWORD,openai,openai
 - DOMAIN-SUFFIX,auth0.com,openai
 - DOMAIN-SUFFIX,challenges.cloudflare.com,openai
@@ -839,7 +900,7 @@ proxies:
   password: b506e93c-61bf-4ab3-b2cb-6aa202fa7064
   udp: true
   sni: ld.xgzl02.yuiuingkig.icu
-- name: 距离下次重置剩余：4 天
+- name: 距离下次重置剩余：3 天
   type: trojan
   server: zz.xgzl.fogvip-zz.uk
   port: 50069
