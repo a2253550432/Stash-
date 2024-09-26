@@ -42,8 +42,8 @@ proxy-groups:
 - name: 手动切换
   type: select
   proxies: &id001
-  - 剩余流量：909.02 GB
-  - 距离下次重置剩余：3 天
+  - 剩余流量：908.88 GB
+  - 距离下次重置剩余：2 天
   - 套餐到期：2025-02-28
   - 【永久域名Tafog.com】
   - Bronze-香港-BGP-01
@@ -171,8 +171,8 @@ proxy-groups:
 - name: 其他
   type: url-test
   proxies:
-  - 剩余流量：909.02 GB
-  - 距离下次重置剩余：3 天
+  - 剩余流量：908.88 GB
+  - 距离下次重置剩余：2 天
   - 套餐到期：2025-02-28
   - 【永久域名Tafog.com】
   - Silver-泰国-商宽-01
@@ -354,14 +354,22 @@ rules:
 - DOMAIN-KEYWORD,httpdns.bilivideo, REJECT
 - DOMAIN-KEYWORD,mirrorcos.bilivideo, REJECT
 - DOMAIN-KEYWORD,api.live.bilibili, REJECT
-- DOMAIN-KEYWORD,hdslb, REJECT
 - DOMAIN-KEYWORD,mall.bilibili, REJECT
 - DOMAIN-KEYWORD,cm.bilibili, REJECT
 - DOMAIN-KEYWORD,dataflow.biliapi, REJECT
 - DOMAIN-KEYWORD,pay.bilibili, REJECT
-- DOMAIN-KEYWORD,app.bilibili, REJECT
 - DOMAIN-KEYWORD,broadcast.chat.bilibili, REJECT
 - DOMAIN-KEYWORD,grpc.biliapi, REJECT
+- DOMAIN-KEYWORD,mirroraliov.bilivideo, REJECT
+- DOMAIN-KEYWORD,api.vc.bilibili, REJECT
+- DOMAIN-KEYWORD,api.biliapi, REJECT
+- DOMAIN-KEYWORD,show.bilibili, REJECT
+- DOMAIN-KEYWORD,mall.dreamcast, REJECT
+- DOMAIN-KEYWORD,suggestqueries,REJECT
+- DOMAIN-KEYWORD,s.youtube,REJECT
+- DOMAIN-KEYWORD,notifications-pa.googleapis,REJECT
+- DOMAIN-KEYWORD,googleusercontent,REJECT
+- DOMAIN-KEYWORD,mtalk,REJECT
 - DOMAIN-KEYWORD,openai,openai
 - DOMAIN-SUFFIX,auth0.com,openai
 - DOMAIN-SUFFIX,challenges.cloudflare.com,openai
@@ -893,14 +901,14 @@ rules:
 - GEOIP,CN,DIRECT
 - MATCH,节点选择
 proxies:
-- name: 剩余流量：909.02 GB
+- name: 剩余流量：908.88 GB
   type: trojan
   server: zz.xgzl.fogvip-zz.uk
   port: 50069
   password: b506e93c-61bf-4ab3-b2cb-6aa202fa7064
   udp: true
   sni: ld.xgzl02.yuiuingkig.icu
-- name: 距离下次重置剩余：3 天
+- name: 距离下次重置剩余：2 天
   type: trojan
   server: zz.xgzl.fogvip-zz.uk
   port: 50069
