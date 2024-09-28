@@ -63,6 +63,8 @@ with open("my.yaml",'r',encoding='utf-8') as file:
 with open("adremoval.yaml",'r',encoding='utf-8') as file:
     adremoval = yaml.safe_load(file)
 
+raw_rules = datamy['rules']
+
 datamy['rules'] = adremoval['rules']+datamy['rules']
 
 datamy['proxies'] = servers
@@ -124,4 +126,7 @@ with open('output.yaml', 'w', encoding='utf-8') as file:
 
 
 
+datamy['rules'] = raw_rules
 
+with open('simple.yaml', encoding='utf-8') as file:
+    yaml.dump(datamy, file, allow_unicode=True, sort_keys=False)
