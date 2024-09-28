@@ -84,9 +84,7 @@ for proxy in datamy['proxies']:
         countries['其他'].append(proxy['name'])
     all_proxies.append(proxy['name'])
 
-proxy_group = []
-selection = datamy['proxy-groups'][0]
-proxy_group.append(selection)
+proxy_group = datamy['proxy-groups']
 
 # 加入手动切换 和 自动选择 两个group
 manual,auto = {},{}

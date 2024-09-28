@@ -29,7 +29,11 @@ proxy-groups:
       - 自动选择
       - DIRECT
 
-
+  - name: ytyt真可爱呀
+    type: select
+    proxies:
+      - DIRECT
+ 
 rules:
   - DOMAIN-KEYWORD,openai,openai
   - DOMAIN-SUFFIX,auth0.com,openai
