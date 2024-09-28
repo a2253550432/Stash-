@@ -46,7 +46,7 @@ proxy-groups:
 - name: 手动切换
   type: select
   proxies: &id001
-  - 剩余流量：999.52 GB
+  - 剩余流量：999.51 GB
   - 套餐到期：2025-02-28
   - 【永久域名Tafog.com】
   - Bronze-香港-BGP-01
@@ -174,7 +174,7 @@ proxy-groups:
 - name: 其他
   type: url-test
   proxies:
-  - 剩余流量：999.52 GB
+  - 剩余流量：999.51 GB
   - 套餐到期：2025-02-28
   - 【永久域名Tafog.com】
   - Silver-泰国-商宽-01
@@ -349,7 +349,7 @@ rules:
 - DOMAIN-KEYWORD,overseamobileap.ctrip, REJECT
 - DOMAIN-KEYWORD,vod2.myqcloud, REJECT
 - DOMAIN-KEYWORD,suggestqueries,REJECT
-- DOMAIN-KEYWORD,s.youtube,REJECT
+- DOMAIN,s.youtube.com,REJECT
 - DOMAIN-KEYWORD,notifications-pa.googleapis,REJECT
 - DOMAIN-KEYWORD,googleusercontent,REJECT
 - DOMAIN-KEYWORD,mtalk,REJECT
@@ -884,7 +884,7 @@ rules:
 - GEOIP,CN,DIRECT
 - MATCH,节点选择
 proxies:
-- name: 剩余流量：999.52 GB
+- name: 剩余流量：999.51 GB
   type: trojan
   server: zz.xgzl.fogvip-zz.uk
   port: 50069
