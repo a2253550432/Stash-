@@ -14,7 +14,7 @@ rules:
   - DOMAIN-KEYWORD,playawards,REJECT
   - DOMAIN-KEYWORD,applovin,REJECT
   - DOMAIN-KEYWORD,applvn,REJECT
-  - DOMAIN-KEYWORD,collector,REJECT
+  #- DOMAIN-KEYWORD,collector,REJECT
   - DOMAIN-KEYWORD,client-api,REJECT
   - DOMAIN-KEYWORD,se-edge,REJECT
   #- DOMAIN-KEYWORD,xp.apple,REJECT
@@ -204,7 +204,7 @@ rules:
 
 
   # youtube
-  - DOMAIN-KEYWORD,suggestqueries,REJECT
+  #- DOMAIN-KEYWORD,suggestqueries,REJECT
   - DOMAIN,s.youtube.com,REJECT
   #- DOMAIN-KEYWORD,ggpht,REJECT
   - DOMAIN-KEYWORD,notifications-pa.googleapis,REJECT
