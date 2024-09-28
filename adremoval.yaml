@@ -197,7 +197,7 @@ rules:
   - DOMAIN-KEYWORD,amap.dingtalk.com,REJECT
   - DOMAIN-KEYWORD,oss-cn-hangzhou.aliyuncs,REJECT
   - DOMAIN,atoken.m.taobao.com,REJECT
-  - DOMAIN,acs.m.taobao.com,REJECT
+  - DOMAIN-KEYWORD,acs.m.taobao.com,REJECT
   - DOMAIN-KEYWORD,ads.amap.com,REJECT
   - DOMAIN,awaken.amap.com,REJECT
   #- DOMAIN,c1.amap.com,REJECT
