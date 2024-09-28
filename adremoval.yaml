@@ -198,6 +198,17 @@ rules:
   - DOMAIN-KEYWORD,oss-cn-hangzhou.aliyuncs,REJECT
   - DOMAIN,atoken.m.taobao.com,REJECT
   - DOMAIN,acs.m.taobao.com,REJECT
+  - DOMAIN-KEYWORD,ads.amap.com,REJECT
+  - DOMAIN,awaken.amap.com,REJECT
+  #- DOMAIN,c1.amap.com,REJECT
+  #- DOMAIN,c2.amap.com,REJECT
+  #- DOMAIN,c3.amap.com,REJECT
+  #- DOMAIN,m5-x.amap.com,REJECT
+  #- DOMAIN,m5.amap.com,REJECT
+  #- DOMAIN,c3-pha.amap.com,REJECT
+  - DOMAIN,ts.amap.com,REJECT
+  - DOMAIN,render-prod-tile.amap.com,REJECT
+
 
   # bilibili
   # - DOMAIN-KEYWORD,staticcos, REJECT
