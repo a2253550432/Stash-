@@ -148,6 +148,7 @@ rules:
 
 #hellobike
   - DOMAIN-KEYWORD,beacon-api.aliyuncs, REJECT
+  - DOMAIN-KEYWORD,mpaas, REJECT
   - DOMAIN-KEYWORD,mpaasmdap, REJECT
   - DOMAIN-KEYWORD,verify.mob, REJECT
   #- DOMAIN-KEYWORD,amap, REJECT 定位服务，不能reject
@@ -163,6 +164,9 @@ rules:
   - DOMAIN-KEYWORD,ronghub, REJECT
   - DOMAIN-KEYWORD,hitchregistergw, REJECT
   - DOMAIN-KEYWORD,apmgw, REJECT
+  - DOMAIN,resource.51downapp.cn,REJECT
+  - DOMAIN,assets.51downapp.cn,REJECT
+  - DOMAIN,easytomessage.com,REJECT
   
   # 携程
   - DOMAIN-KEYWORD,m.ctripins, REJECT
