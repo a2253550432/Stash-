@@ -178,6 +178,27 @@ rules:
   - DOMAIN-KEYWORD,vod2.myqcloud, REJECT
 
 
+  
+  # youtube
+  #- DOMAIN-KEYWORD,suggestqueries,REJECT
+  - DOMAIN,s.youtube.com,REJECT
+  #- DOMAIN-KEYWORD,ggpht,REJECT
+  - DOMAIN-KEYWORD,notifications-pa.googleapis,REJECT
+  - DOMAIN-KEYWORD,googleusercontent,REJECT
+  - DOMAIN-KEYWORD,mtalk,REJECT
+
+  # 高德
+  - DOMAIN-KEYWORD,qchannel01,REJECT
+  - DOMAIN,amdc.m.taobao.com,REJECT
+  - DOMAIN,mum.alibabachengdun.com,REJECT
+  - DOMAIN,mdap.alipay.com,REJECT
+  - DOMAIN,inside-gateway.alipay.com,REJECT
+  - DOMAIN,mobilegw.alipay.com,REJECT
+  - DOMAIN-KEYWORD,amap.dingtalk.com,REJECT
+  - DOMAIN-KEYWORD,oss-cn-hangzhou.aliyuncs,REJECT
+  - DOMAIN,atoken.m.taobao.com,REJECT
+  - DOMAIN,acs.m.taobao.com,REJECT
+
   # bilibili
   # - DOMAIN-KEYWORD,staticcos, REJECT
   # - DOMAIN-KEYWORD,api.bilibili, REJECT
@@ -203,14 +224,6 @@ rules:
   # - DOMAIN-KEYWORD,mall.dreamcast, REJECT
 
 
-  # youtube
-  #- DOMAIN-KEYWORD,suggestqueries,REJECT
-  - DOMAIN,s.youtube.com,REJECT
-  #- DOMAIN-KEYWORD,ggpht,REJECT
-  - DOMAIN-KEYWORD,notifications-pa.googleapis,REJECT
-  - DOMAIN-KEYWORD,googleusercontent,REJECT
-  - DOMAIN-KEYWORD,mtalk,REJECT
-  
   #- DOMAIN-KEYWORD,mobileconfig-gateway.hellobike, REJECT
   #- DOMAIN-KEYWORD,api.hellobike, REJECT
   #- DOMAIN-KEYWORD,ip.hellobike, REJECT
