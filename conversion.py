@@ -128,5 +128,5 @@ with open('output.yaml', 'w', encoding='utf-8') as file:
 
 datamy['rules'] = raw_rules
 
-with open('simple.yaml', encoding='utf-8') as file:
+with open('simple.yaml', 'w', encoding='utf-8') as file:
     yaml.dump(datamy, file, allow_unicode=True, sort_keys=False)
