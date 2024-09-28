@@ -37,8 +37,9 @@ jobs:
           git config --local user.name "github-actions"
           git config --local user.email "github-actions@github.com"
           git add output.yaml
+          git add simple.yaml
           if ! git diff --cached --quiet; then
-            git commit -m "Update output.yaml"
+            git commit -m "Updated Subscriptions"
             git push
           else
             echo "No changes to commit."
