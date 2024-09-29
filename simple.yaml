@@ -46,7 +46,8 @@ proxy-groups:
 - name: 手动切换
   type: select
   proxies: &id001
-  - 剩余流量：999.45 GB
+  - 剩余流量：999.38 GB
+  - 距离下次重置剩余：29 天
   - 套餐到期：2025-02-28
   - 【永久域名Tafog.com】
   - Bronze-香港-BGP-01
@@ -105,9 +106,11 @@ proxy-groups:
   - Gold-马来西亚-01
   - Gold-加拿大-ProCA
   - Gold-土耳其-Tr-01
+  interval: -1
 - name: 自动选择
   type: url-test
   proxies: *id001
+  interval: -1
 - name: 香港
   type: url-test
   proxies:
@@ -129,6 +132,7 @@ proxy-groups:
   - Gold-香港-Pro-06
   - Gold-香港-HEHIK-07
   - Gold-香港-HEHIK-08
+  interval: -1
 - name: 日本
   type: url-test
   proxies:
@@ -136,18 +140,21 @@ proxy-groups:
   - Silver-日本-商宽-01
   - Silver-日本-商宽-02
   - Gold-日本-家宽-01
+  interval: -1
 - name: 韩国
   type: url-test
   proxies:
   - Bronze-韩国-Cloud-01
   - Silver-韩国-商宽-01
   - Gold-韩国-KR-01
+  interval: -1
 - name: 台湾
   type: url-test
   proxies:
   - Bronze-台湾-Hinet-01
   - Silver-台湾-商宽-01
   - Gold-台湾-Hinet-01
+  interval: -1
 - name: 新加坡
   type: url-test
   proxies:
@@ -156,6 +163,7 @@ proxy-groups:
   - Silver-新加坡-02
   - Gold-新加坡-01
   - Gold-新加坡-02
+  interval: -1
 - name: 美国
   type: url-test
   proxies:
@@ -171,10 +179,12 @@ proxy-groups:
   - Gold-美国-原生-03
   - Gold-美国-原生-04
   - Gold-美国-Vegas-05
+  interval: -1
 - name: 其他
   type: url-test
   proxies:
-  - 剩余流量：999.45 GB
+  - 剩余流量：999.38 GB
+  - 距离下次重置剩余：29 天
   - 套餐到期：2025-02-28
   - 【永久域名Tafog.com】
   - Silver-泰国-商宽-01
@@ -188,6 +198,7 @@ proxy-groups:
   - Gold-马来西亚-01
   - Gold-加拿大-ProCA
   - Gold-土耳其-Tr-01
+  interval: -1
 - name: openai
   type: select
   proxies:
@@ -200,6 +211,7 @@ proxy-groups:
   - 手动切换
   - 自动选择
   - DIRECT
+  interval: -1
 rules:
 - DOMAIN-KEYWORD,openai,openai
 - DOMAIN-SUFFIX,auth0.com,openai
@@ -732,7 +744,14 @@ rules:
 - GEOIP,CN,DIRECT
 - MATCH,节点选择
 proxies:
-- name: 剩余流量：999.45 GB
+- name: 剩余流量：999.38 GB
+  type: trojan
+  server: zz.xgzl.fogvip-zz.uk
+  port: 50069
+  password: b506e93c-61bf-4ab3-b2cb-6aa202fa7064
+  udp: true
+  sni: ld.xgzl02.yuiuingkig.icu
+- name: 距离下次重置剩余：29 天
   type: trojan
   server: zz.xgzl.fogvip-zz.uk
   port: 50069
