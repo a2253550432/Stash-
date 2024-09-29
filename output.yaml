@@ -46,6 +46,7 @@ proxy-groups:
   proxies:
   - DIRECT
   interval: -1
+  url: http://www.gstatic.com/generate_204
 - name: 手动切换
   type: select
   proxies: &id001
@@ -110,10 +111,12 @@ proxy-groups:
   - Gold-加拿大-ProCA
   - Gold-土耳其-Tr-01
   interval: -1
+  url: http://www.gstatic.com/generate_204
 - name: 自动选择
   type: url-test
   proxies: *id001
   interval: -1
+  url: http://www.gstatic.com/generate_204
 - name: 香港
   type: url-test
   proxies:
@@ -136,6 +139,7 @@ proxy-groups:
   - Gold-香港-HEHIK-07
   - Gold-香港-HEHIK-08
   interval: -1
+  url: http://www.gstatic.com/generate_204
 - name: 日本
   type: url-test
   proxies:
@@ -144,6 +148,7 @@ proxy-groups:
   - Silver-日本-商宽-02
   - Gold-日本-家宽-01
   interval: -1
+  url: http://www.gstatic.com/generate_204
 - name: 韩国
   type: url-test
   proxies:
@@ -151,6 +156,7 @@ proxy-groups:
   - Silver-韩国-商宽-01
   - Gold-韩国-KR-01
   interval: -1
+  url: http://www.gstatic.com/generate_204
 - name: 台湾
   type: url-test
   proxies:
@@ -158,6 +164,7 @@ proxy-groups:
   - Silver-台湾-商宽-01
   - Gold-台湾-Hinet-01
   interval: -1
+  url: http://www.gstatic.com/generate_204
 - name: 新加坡
   type: url-test
   proxies:
@@ -167,6 +174,7 @@ proxy-groups:
   - Gold-新加坡-01
   - Gold-新加坡-02
   interval: -1
+  url: http://www.gstatic.com/generate_204
 - name: 美国
   type: url-test
   proxies:
@@ -183,6 +191,7 @@ proxy-groups:
   - Gold-美国-原生-04
   - Gold-美国-Vegas-05
   interval: -1
+  url: http://www.gstatic.com/generate_204
 - name: 其他
   type: url-test
   proxies:
@@ -202,6 +211,7 @@ proxy-groups:
   - Gold-加拿大-ProCA
   - Gold-土耳其-Tr-01
   interval: -1
+  url: http://www.gstatic.com/generate_204
 - name: openai
   type: select
   proxies:
@@ -215,6 +225,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   interval: -1
+  url: http://www.gstatic.com/generate_204
 rules:
 - DOMAIN-KEYWORD,googlead,REJECT
 - DOMAIN-SUFFIX,ad.com,REJECT
