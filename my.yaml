@@ -28,11 +28,14 @@ proxy-groups:
       - 手动切换
       - 自动选择
       - DIRECT
+    url: http://www.gstatic.com/generate_204
+    interval: 600 
 
   - name: ytyt真可爱呀
     type: select
     proxies:
       - DIRECT
+    interval: -1
  
 rules:
   - DOMAIN-KEYWORD,openai,openai
