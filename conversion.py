@@ -93,10 +93,12 @@ manual,auto = {},{}
 manual['name'] = '手动切换'
 manual['type'] = 'select'
 manual['proxies'] = all_proxies
+manual['interval'] = -1
 
 auto['name'] = '自动选择'
 auto['type'] = 'url-test'
 auto['proxies'] = all_proxies
+auto['interval'] = -1
 
 proxy_group.append(manual)
 proxy_group.append(auto)
@@ -108,6 +110,7 @@ for country in countries:
     group['name'] = country
     group['type'] = 'url-test'
     group['proxies'] = countries[country]
+    group['interval'] = -1
     proxy_group.append(group)
 
 # 加入openai等特定分类
@@ -115,6 +118,7 @@ group = {}
 group['name'] = 'openai'
 group['type'] = 'select'
 group['proxies'] = datamy['proxy-groups'][0]['proxies'][1:] # 去除香港
+group['interval'] = -1
 proxy_group.append(group)
 
 datamy['proxy-groups'] = proxy_group
