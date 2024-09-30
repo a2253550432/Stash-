@@ -5,6 +5,9 @@ import base64
 import sys
 from urllib.parse import urlparse, parse_qs, unquote
 
+INTERVAL = 0
+URL = 'http://www.gstatic.com/generate_204' 
+
 def get_servers():
     # 解析trojan url，生成字典，包含服务器内容
     url = sys.argv[1]
@@ -93,14 +96,14 @@ manual,auto = {},{}
 manual['name'] = '手动切换'
 manual['type'] = 'select'
 manual['proxies'] = all_proxies
-manual['interval'] = -1
-manual['url'] = 'http://www.gstatic.com/generate_204' 
+manual['interval'] = INTERVAL
+manual['url'] = URL
 
 auto['name'] = '自动选择'
 auto['type'] = 'url-test'
 auto['proxies'] = all_proxies
-auto['interval'] = -1
-auto['url'] = 'http://www.gstatic.com/generate_204' 
+auto['interval'] = INTERVAL
+auto['url'] = URL
 
 proxy_group.append(manual)
 proxy_group.append(auto)
@@ -112,8 +115,8 @@ for country in countries:
     group['name'] = country
     group['type'] = 'url-test'
     group['proxies'] = countries[country]
-    group['interval'] = -1
-    group['url'] = 'http://www.gstatic.com/generate_204' 
+    group['interval'] = INTERVAL
+    group['url'] = URL
     proxy_group.append(group)
 
 # 加入openai等特定分类
@@ -121,8 +124,8 @@ group = {}
 group['name'] = 'openai'
 group['type'] = 'select'
 group['proxies'] = datamy['proxy-groups'][0]['proxies'][1:] # 去除香港
-group['interval'] = -1
-group['url'] = 'http://www.gstatic.com/generate_204' 
+group['interval'] = INTERVAL
+group['url'] = URL
 proxy_group.append(group)
 
 datamy['proxy-groups'] = proxy_group
