@@ -214,7 +214,8 @@ rules:
   - DOMAIN,render-prod-tile.amap.com,REJECT
 
   # 搜狗输入法
-  - DOMAIN-SUFFIX,dt.qq.com,REJECT
+  - DOMAIN-SUFFIX,mdt.qq.com,REJECT
+  - DOMAIN-SUFFIX,gdt.qq.com,REJECT
   - DOMAIN,tangram.e.qq.com,REJECT
   - DOMAIN,sdkreport.e.qq.com,REJECT
   - DOMAIN-SUFFIX,sginput.qq.com,REJECT
