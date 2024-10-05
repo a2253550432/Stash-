@@ -218,7 +218,7 @@ rules:
   - DOMAIN-SUFFIX,gdt.qq.com,REJECT
   - DOMAIN,tangram.e.qq.com,REJECT
   - DOMAIN,sdkreport.e.qq.com,REJECT
-  # - DOMAIN-SUFFIX,sginput.qq.com,REJECT
+  - DOMAIN-SUFFIX,sginput.qq.com,REJECT
   - DOMAIN-SUFFIX,gtimg.cn,REJECT
   - DOMAIN-SUFFIX,shouji.sogou.com,REJECT
 
