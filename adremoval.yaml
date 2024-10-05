@@ -213,6 +213,13 @@ rules:
   - DOMAIN,ts.amap.com,REJECT
   - DOMAIN,render-prod-tile.amap.com,REJECT
 
+  # 搜狗输入法
+  - DOMAIN-SUFFIX,dt.qq.com,REJECT
+  - DOMAIN,tangram.e.qq.com,REJECT
+  - DOMAIN,sdkreport.e.qq.com,REJECT
+  - DOMAIN-SUFFIX,sginput.qq.com,REJECT
+  - DOMAIN-SUFFIX,gtimg.cn,REJECT
+  - DOMAIN-SUFFIX,shouji.sogou.com,REJECT
 
   # bilibili
   # - DOMAIN-KEYWORD,staticcos, REJECT
