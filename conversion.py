@@ -5,7 +5,7 @@ import base64
 import sys
 from urllib.parse import urlparse, parse_qs, unquote
 
-INTERVAL = 0
+INTERVAL = 1440
 URL = 'http://www.gstatic.com/generate_204' 
 
 def get_servers():
