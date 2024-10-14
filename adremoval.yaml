@@ -212,6 +212,13 @@ rules:
   #- DOMAIN,c3-pha.amap.com,REJECT
   - DOMAIN,ts.amap.com,REJECT
   - DOMAIN,render-prod-tile.amap.com,REJECT
+  - DOMAIN,m5-x.amap.com,REJECT
+  - DOMAIN,sync.amap.com,REJECT
+  - DOMAIN,center.amap.com,REJECT
+  - DOMAIN,c3-pha.amap.com,REJECT
+  - DOMAIN,adashx.ut.amap.com,REJECT
+  - DOMAIN,amap-aos-info-nogw.amap.com,REJECT
+
 
   # 搜狗输入法
   - DOMAIN-SUFFIX,mdt.qq.com,REJECT
