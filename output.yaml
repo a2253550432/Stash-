@@ -49,7 +49,7 @@ proxy-groups:
 - name: 手动切换
   type: select
   proxies: &id001
-  - 剩余流量：911.16 GB
+  - 剩余流量：911 GB
   - 距离下次重置剩余：5 天
   - 套餐到期：2025-02-28
   - 【永久域名Tafog.com】
@@ -194,7 +194,7 @@ proxy-groups:
 - name: 其他
   type: url-test
   proxies:
-  - 剩余流量：911.16 GB
+  - 剩余流量：911 GB
   - 距离下次重置剩余：5 天
   - 套餐到期：2025-02-28
   - 【永久域名Tafog.com】
@@ -323,6 +323,8 @@ rules:
 - DOMAIN-KEYWORD,ad.api,REJECT
 - DOMAIN-KEYWORD,slsrole,REJECT
 - DOMAIN-KEYWORD,adlaunch,REJECT
+- DOMAIN-KEYWORD,zhangyuyidong,REJECT
+- DOMAIN,snowflake.qq.com,REJECT
 - DOMAIN-KEYWORD,toponadss,REJECT
 - DOMAIN-KEYWORD,iad,REJECT
 - DOMAIN-KEYWORD,dsp-impr2,REJECT
@@ -938,7 +940,7 @@ rules:
 - GEOIP,CN,DIRECT
 - MATCH,节点选择
 proxies:
-- name: 剩余流量：911.16 GB
+- name: 剩余流量：911 GB
   type: trojan
   server: zz.xgzl.fogvip-zz.uk
   port: 50069
