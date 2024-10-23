@@ -119,6 +119,8 @@ rules:
   - DOMAIN-KEYWORD,adlaunch,REJECT
 
   #网易邮箱
+  - DOMAIN-KEYWORD,zhangyuyidong,REJECT
+  - DOMAIN,snowflake.qq.com,REJECT
   - DOMAIN-KEYWORD,toponadss,REJECT
   - DOMAIN-KEYWORD,iad,REJECT
   - DOMAIN-KEYWORD,dsp-impr2,REJECT
