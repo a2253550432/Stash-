@@ -194,7 +194,8 @@ rules:
   - DOMAIN-KEYWORD,mtalk,REJECT
 
   # 高德
-  - DOMAIN-KEYWORD,qchannel01,REJECT
+  - DOMAIN-KEYWORD,qchannel,REJECT
+  - DOMAIN-KEYWORD,alibabausercontent,REJECT
   - DOMAIN,amdc.m.taobao.com,REJECT
   - DOMAIN,mum.alibabachengdun.com,REJECT
   - DOMAIN,mdap.alipay.com,REJECT
