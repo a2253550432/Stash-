@@ -195,7 +195,7 @@ rules:
 
   # 高德
   - DOMAIN-KEYWORD,qchannel,REJECT
-  - DOMAIN-KEYWORD,alibabausercontent,REJECT
+  # - DOMAIN-KEYWORD,alibabausercontent,REJECT # 会导致网易邮箱上不去
   - DOMAIN,amdc.m.taobao.com,REJECT
   - DOMAIN,mum.alibabachengdun.com,REJECT
   - DOMAIN,mdap.alipay.com,REJECT
