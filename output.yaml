@@ -49,7 +49,7 @@ proxy-groups:
 - name: 手动切换
   type: select
   proxies: &id001
-  - 剩余流量：972.44 GB
+  - 剩余流量：972.43 GB
   - 距离下次重置剩余：25 天
   - 套餐到期：2025-02-28
   - 【永久域名Tafog.com】
@@ -194,7 +194,7 @@ proxy-groups:
 - name: 其他
   type: url-test
   proxies:
-  - 剩余流量：972.44 GB
+  - 剩余流量：972.43 GB
   - 距离下次重置剩余：25 天
   - 套餐到期：2025-02-28
   - 【永久域名Tafog.com】
@@ -297,17 +297,6 @@ rules:
 - DOMAIN-KEYWORD,adukwai,REJECT
 - DOMAIN-KEYWORD,goblin.hupu,REJECT
 - DOMAIN-KEYWORD,hermes.hupu,REJECT
-- DOMAIN-KEYWORD,sdkapp.uve,REJECT
-- DOMAIN-KEYWORD,adstrategy,REJECT
-- DOMAIN-KEYWORD,wbapp.uve,REJECT
-- DOMAIN-KEYWORD,sdkaction,REJECT
-- DOMAIN-KEYWORD,sdkmonitor,REJECT
-- DOMAIN-KEYWORD,bootpreload,REJECT
-- DOMAIN-KEYWORD,kadmimage,REJECT
-- DOMAIN-KEYWORD,im.weibo,REJECT
-- DOMAIN-KEYWORD,ut.taobao,REJECT
-- DOMAIN-KEYWORD,sdkclick,REJECT
-- DOMAIN-KEYWORD,vs.biz,REJECT
 - DOMAIN-KEYWORD,adsystem,REJECT
 - DOMAIN-KEYWORD,mintegral,REJECT
 - DOMAIN-KEYWORD,afunap,REJECT
@@ -350,25 +339,6 @@ rules:
 - DOMAIN-KEYWORD,countly.mail.163, REJECT
 - DOMAIN-KEYWORD,caldav.163, REJECT
 - DOMAIN-KEYWORD,nex.163, REJECT
-- DOMAIN-KEYWORD,beacon-api.aliyuncs, REJECT
-- DOMAIN-KEYWORD,mpaas, REJECT
-- DOMAIN-KEYWORD,mpaasmdap, REJECT
-- DOMAIN-KEYWORD,verify.mob, REJECT
-- DOMAIN-KEYWORD,ttbike, REJECT
-- DOMAIN-KEYWORD,gm.mob, REJECT
-- DOMAIN-KEYWORD,aibrain-decision-flow, REJECT
-- DOMAIN-KEYWORD,mpaasgw, REJECT
-- DOMAIN-KEYWORD,api.weibo, REJECT
-- DOMAIN-KEYWORD,umeng, REJECT
-- DOMAIN-KEYWORD,fingerprint-upload, REJECT
-- DOMAIN-KEYWORD,moment-cdn, REJECT
-- DOMAIN-KEYWORD,dualstack, REJECT
-- DOMAIN-KEYWORD,ronghub, REJECT
-- DOMAIN-KEYWORD,hitchregistergw, REJECT
-- DOMAIN-KEYWORD,apmgw, REJECT
-- DOMAIN,resource.51downapp.cn,REJECT
-- DOMAIN,assets.51downapp.cn,REJECT
-- DOMAIN,easytomessage.com,REJECT
 - DOMAIN-KEYWORD,m.ctripins, REJECT
 - DOMAIN-KEYWORD,cpush.ctrip, REJECT
 - DOMAIN-KEYWORD,ma-adx, REJECT
@@ -378,37 +348,6 @@ rules:
 - DOMAIN-KEYWORD,pages.ctrip, REJECT
 - DOMAIN-KEYWORD,overseamobileap.ctrip, REJECT
 - DOMAIN-KEYWORD,vod2.myqcloud, REJECT
-- DOMAIN,s.youtube.com,REJECT
-- DOMAIN-KEYWORD,notifications-pa.googleapis,REJECT
-- DOMAIN-KEYWORD,googleusercontent,REJECT
-- DOMAIN-KEYWORD,mtalk,REJECT
-- DOMAIN-KEYWORD,qchannel01,REJECT
-- DOMAIN,amdc.m.taobao.com,REJECT
-- DOMAIN,mum.alibabachengdun.com,REJECT
-- DOMAIN,mdap.alipay.com,REJECT
-- DOMAIN,inside-gateway.alipay.com,REJECT
-- DOMAIN,mobilegw.alipay.com,REJECT
-- DOMAIN-KEYWORD,amap.dingtalk.com,REJECT
-- DOMAIN-KEYWORD,oss-cn-hangzhou.aliyuncs,REJECT
-- DOMAIN,atoken.m.taobao.com,REJECT
-- DOMAIN-KEYWORD,acs.m.taobao.com,REJECT
-- DOMAIN-KEYWORD,ads.amap.com,REJECT
-- DOMAIN,awaken.amap.com,REJECT
-- DOMAIN,ts.amap.com,REJECT
-- DOMAIN,render-prod-tile.amap.com,REJECT
-- DOMAIN,m5-x.amap.com,REJECT
-- DOMAIN,sync.amap.com,REJECT
-- DOMAIN,center.amap.com,REJECT
-- DOMAIN,c3-pha.amap.com,REJECT
-- DOMAIN,adashx.ut.amap.com,REJECT
-- DOMAIN,amap-aos-info-nogw.amap.com,REJECT
-- DOMAIN-SUFFIX,mdt.qq.com,REJECT
-- DOMAIN-SUFFIX,gdt.qq.com,REJECT
-- DOMAIN,tangram.e.qq.com,REJECT
-- DOMAIN,sdkreport.e.qq.com,REJECT
-- DOMAIN-SUFFIX,sginput.qq.com,REJECT
-- DOMAIN-SUFFIX,gtimg.cn,REJECT
-- DOMAIN-SUFFIX,shouji.sogou.com,REJECT
 - DOMAIN-KEYWORD,openai,openai
 - DOMAIN-SUFFIX,auth0.com,openai
 - DOMAIN-SUFFIX,challenges.cloudflare.com,openai
@@ -940,7 +879,7 @@ rules:
 - GEOIP,CN,DIRECT
 - MATCH,节点选择
 proxies:
-- name: 剩余流量：972.44 GB
+- name: 剩余流量：972.43 GB
   type: trojan
   server: zz.xgzl.fogvip-zz.uk
   port: 50069
