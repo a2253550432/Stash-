@@ -83,21 +83,21 @@ rules:
   - DOMAIN-KEYWORD,hermes.hupu,REJECT
 
   # 微博
-  - DOMAIN-KEYWORD,sdkapp.uve,REJECT
-  - DOMAIN-KEYWORD,adstrategy,REJECT
-  - DOMAIN-KEYWORD,wbapp.uve,REJECT
-  - DOMAIN-KEYWORD,sdkaction,REJECT
-  - DOMAIN-KEYWORD,sdkmonitor,REJECT
-  - DOMAIN-KEYWORD,bootpreload,REJECT
-  - DOMAIN-KEYWORD,kadmimage,REJECT
+  # - DOMAIN-KEYWORD,sdkapp.uve,REJECT
+  # - DOMAIN-KEYWORD,adstrategy,REJECT
+  # - DOMAIN-KEYWORD,wbapp.uve,REJECT
+  # - DOMAIN-KEYWORD,sdkaction,REJECT
+  # - DOMAIN-KEYWORD,sdkmonitor,REJECT
+  # - DOMAIN-KEYWORD,bootpreload,REJECT
+  # - DOMAIN-KEYWORD,kadmimage,REJECT
   #- DOMAIN-KEYWORD,api.im,REJECT
   #- DOMAIN-KEYWORD,dp.im,REJECT
   #- DOMAIN-KEYWORD,gw.im,REJECT
   #- DOMAIN-KEYWORD,gateway.im,REJECT
-  - DOMAIN-KEYWORD,im.weibo,REJECT
-  - DOMAIN-KEYWORD,ut.taobao,REJECT
-  - DOMAIN-KEYWORD,sdkclick,REJECT
-  - DOMAIN-KEYWORD,vs.biz,REJECT
+  # - DOMAIN-KEYWORD,im.weibo,REJECT
+  # - DOMAIN-KEYWORD,ut.taobao,REJECT
+  # - DOMAIN-KEYWORD,sdkclick,REJECT
+  # - DOMAIN-KEYWORD,vs.biz,REJECT
   
   # 游戏
   - DOMAIN-KEYWORD,adsystem,REJECT
@@ -149,26 +149,26 @@ rules:
   - DOMAIN-KEYWORD,nex.163, REJECT
 
 #hellobike
-  - DOMAIN-KEYWORD,beacon-api.aliyuncs, REJECT
-  - DOMAIN-KEYWORD,mpaas, REJECT
-  - DOMAIN-KEYWORD,mpaasmdap, REJECT
-  - DOMAIN-KEYWORD,verify.mob, REJECT
+  # - DOMAIN-KEYWORD,beacon-api.aliyuncs, REJECT
+  # - DOMAIN-KEYWORD,mpaas, REJECT
+  # - DOMAIN-KEYWORD,mpaasmdap, REJECT
+  # - DOMAIN-KEYWORD,verify.mob, REJECT
   #- DOMAIN-KEYWORD,amap, REJECT 定位服务，不能reject
-  - DOMAIN-KEYWORD,ttbike, REJECT
-  - DOMAIN-KEYWORD,gm.mob, REJECT
-  - DOMAIN-KEYWORD,aibrain-decision-flow, REJECT
-  - DOMAIN-KEYWORD,mpaasgw, REJECT
-  - DOMAIN-KEYWORD,api.weibo, REJECT
-  - DOMAIN-KEYWORD,umeng, REJECT
-  - DOMAIN-KEYWORD,fingerprint-upload, REJECT
-  - DOMAIN-KEYWORD,moment-cdn, REJECT
-  - DOMAIN-KEYWORD,dualstack, REJECT
-  - DOMAIN-KEYWORD,ronghub, REJECT
-  - DOMAIN-KEYWORD,hitchregistergw, REJECT
-  - DOMAIN-KEYWORD,apmgw, REJECT
-  - DOMAIN,resource.51downapp.cn,REJECT
-  - DOMAIN,assets.51downapp.cn,REJECT
-  - DOMAIN,easytomessage.com,REJECT
+  # - DOMAIN-KEYWORD,ttbike, REJECT
+  # - DOMAIN-KEYWORD,gm.mob, REJECT
+  # - DOMAIN-KEYWORD,aibrain-decision-flow, REJECT
+  # - DOMAIN-KEYWORD,mpaasgw, REJECT
+  # - DOMAIN-KEYWORD,api.weibo, REJECT
+  # - DOMAIN-KEYWORD,umeng, REJECT
+  # - DOMAIN-KEYWORD,fingerprint-upload, REJECT
+  # - DOMAIN-KEYWORD,moment-cdn, REJECT
+  # - DOMAIN-KEYWORD,dualstack, REJECT
+  # - DOMAIN-KEYWORD,ronghub, REJECT
+  # - DOMAIN-KEYWORD,hitchregistergw, REJECT
+  # - DOMAIN-KEYWORD,apmgw, REJECT
+  # - DOMAIN,resource.51downapp.cn,REJECT
+  # - DOMAIN,assets.51downapp.cn,REJECT
+  # - DOMAIN,easytomessage.com,REJECT
   
   # 携程
   - DOMAIN-KEYWORD,m.ctripins, REJECT
@@ -187,49 +187,49 @@ rules:
   
   # youtube
   #- DOMAIN-KEYWORD,suggestqueries,REJECT
-  - DOMAIN,s.youtube.com,REJECT
+  # - DOMAIN,s.youtube.com,REJECT
   #- DOMAIN-KEYWORD,ggpht,REJECT
-  - DOMAIN-KEYWORD,notifications-pa.googleapis,REJECT
-  - DOMAIN-KEYWORD,googleusercontent,REJECT
-  - DOMAIN-KEYWORD,mtalk,REJECT
+  # - DOMAIN-KEYWORD,notifications-pa.googleapis,REJECT
+  # - DOMAIN-KEYWORD,googleusercontent,REJECT
+  # - DOMAIN-KEYWORD,mtalk,REJECT
 
   # 高德
-  - DOMAIN-KEYWORD,qchannel01,REJECT
-  - DOMAIN,amdc.m.taobao.com,REJECT
-  - DOMAIN,mum.alibabachengdun.com,REJECT
-  - DOMAIN,mdap.alipay.com,REJECT
-  - DOMAIN,inside-gateway.alipay.com,REJECT
-  - DOMAIN,mobilegw.alipay.com,REJECT
-  - DOMAIN-KEYWORD,amap.dingtalk.com,REJECT
-  - DOMAIN-KEYWORD,oss-cn-hangzhou.aliyuncs,REJECT
-  - DOMAIN,atoken.m.taobao.com,REJECT
-  - DOMAIN-KEYWORD,acs.m.taobao.com,REJECT
-  - DOMAIN-KEYWORD,ads.amap.com,REJECT
-  - DOMAIN,awaken.amap.com,REJECT
+  # - DOMAIN-KEYWORD,qchannel01,REJECT
+  # - DOMAIN,amdc.m.taobao.com,REJECT
+  # - DOMAIN,mum.alibabachengdun.com,REJECT
+  # - DOMAIN,mdap.alipay.com,REJECT
+  # - DOMAIN,inside-gateway.alipay.com,REJECT
+  # - DOMAIN,mobilegw.alipay.com,REJECT
+  # - DOMAIN-KEYWORD,amap.dingtalk.com,REJECT
+  # - DOMAIN-KEYWORD,oss-cn-hangzhou.aliyuncs,REJECT
+  # - DOMAIN,atoken.m.taobao.com,REJECT
+  # - DOMAIN-KEYWORD,acs.m.taobao.com,REJECT
+  # - DOMAIN-KEYWORD,ads.amap.com,REJECT
+  # - DOMAIN,awaken.amap.com,REJECT
   #- DOMAIN,c1.amap.com,REJECT
   #- DOMAIN,c2.amap.com,REJECT
   #- DOMAIN,c3.amap.com,REJECT
   #- DOMAIN,m5-x.amap.com,REJECT
   #- DOMAIN,m5.amap.com,REJECT
   #- DOMAIN,c3-pha.amap.com,REJECT
-  - DOMAIN,ts.amap.com,REJECT
-  - DOMAIN,render-prod-tile.amap.com,REJECT
-  - DOMAIN,m5-x.amap.com,REJECT
-  - DOMAIN,sync.amap.com,REJECT
-  - DOMAIN,center.amap.com,REJECT
-  - DOMAIN,c3-pha.amap.com,REJECT
-  - DOMAIN,adashx.ut.amap.com,REJECT
-  - DOMAIN,amap-aos-info-nogw.amap.com,REJECT
+  # - DOMAIN,ts.amap.com,REJECT
+  # - DOMAIN,render-prod-tile.amap.com,REJECT
+  # - DOMAIN,m5-x.amap.com,REJECT
+  # - DOMAIN,sync.amap.com,REJECT
+  # - DOMAIN,center.amap.com,REJECT
+  # - DOMAIN,c3-pha.amap.com,REJECT
+  # - DOMAIN,adashx.ut.amap.com,REJECT
+  # - DOMAIN,amap-aos-info-nogw.amap.com,REJECT
 
 
   # 搜狗输入法
-  - DOMAIN-SUFFIX,mdt.qq.com,REJECT
-  - DOMAIN-SUFFIX,gdt.qq.com,REJECT
-  - DOMAIN,tangram.e.qq.com,REJECT
-  - DOMAIN,sdkreport.e.qq.com,REJECT
-  - DOMAIN-SUFFIX,sginput.qq.com,REJECT
-  - DOMAIN-SUFFIX,gtimg.cn,REJECT
-  - DOMAIN-SUFFIX,shouji.sogou.com,REJECT
+  # - DOMAIN-SUFFIX,mdt.qq.com,REJECT
+  # - DOMAIN-SUFFIX,gdt.qq.com,REJECT
+  # - DOMAIN,tangram.e.qq.com,REJECT
+  # - DOMAIN,sdkreport.e.qq.com,REJECT
+  # - DOMAIN-SUFFIX,sginput.qq.com,REJECT
+  # - DOMAIN-SUFFIX,gtimg.cn,REJECT
+  # - DOMAIN-SUFFIX,shouji.sogou.com,REJECT
 
   # bilibili
   # - DOMAIN-KEYWORD,staticcos, REJECT
