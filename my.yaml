@@ -58,6 +58,7 @@ rules:
   - DOMAIN-SUFFIX,tiktok.com,tiktok
   - DOMAIN-SUFFIX,tiktokv.com,tiktok
   - DOMAIN-SUFFIX,toktokcdn.com,tiktok
+  - DOMAIN-SUFFIX,byteoversea.com,tiktok
   
   - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
