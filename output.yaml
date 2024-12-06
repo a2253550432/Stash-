@@ -49,8 +49,8 @@ proxy-groups:
 - name: 手动切换
   type: select
   proxies: &id001
-  - 剩余流量：963.91 GB
-  - 距离下次重置剩余：23 天
+  - 剩余流量：962.64 GB
+  - 距离下次重置剩余：22 天
   - 套餐到期：2025-02-28
   - 【永久域名Tafog.com】
   - Bronze-香港-BGP-01
@@ -194,8 +194,8 @@ proxy-groups:
 - name: 其他
   type: url-test
   proxies:
-  - 剩余流量：963.91 GB
-  - 距离下次重置剩余：23 天
+  - 剩余流量：962.64 GB
+  - 距离下次重置剩余：22 天
   - 套餐到期：2025-02-28
   - 【永久域名Tafog.com】
   - Silver-泰国-商宽-01
@@ -213,7 +213,7 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
 - name: openai
   type: select
-  proxies:
+  proxies: &id002
   - 台湾
   - 新加坡
   - 日本
@@ -223,6 +223,11 @@ proxy-groups:
   - 手动切换
   - 自动选择
   - DIRECT
+  interval: 1440
+  url: http://www.gstatic.com/generate_204
+- name: tiktok
+  type: select
+  proxies: *id002
   interval: 1440
   url: http://www.gstatic.com/generate_204
 rules:
@@ -364,6 +369,9 @@ rules:
 - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,openai
 - DOMAIN-SUFFIX,sentry.io,openai
 - DOMAIN-SUFFIX,stripe.com,openai
+- DOMAIN-SUFFIX,tiktok.com,tiktok
+- DOMAIN-SUFFIX,tiktokv.com,tiktok
+- DOMAIN-SUFFIX,toktokcdn.com,tiktok
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
@@ -879,14 +887,14 @@ rules:
 - GEOIP,CN,DIRECT
 - MATCH,节点选择
 proxies:
-- name: 剩余流量：963.91 GB
+- name: 剩余流量：962.64 GB
   type: trojan
   server: zz.xgzl.fogvip-zz.uk
   port: 50069
   password: b506e93c-61bf-4ab3-b2cb-6aa202fa7064
   udp: true
   sni: ld.xgzl02.yuiuingkig.icu
-- name: 距离下次重置剩余：23 天
+- name: 距离下次重置剩余：22 天
   type: trojan
   server: zz.xgzl.fogvip-zz.uk
   port: 50069
