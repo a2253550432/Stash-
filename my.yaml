@@ -54,6 +54,10 @@ rules:
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,openai
   - DOMAIN-SUFFIX,sentry.io,openai
   - DOMAIN-SUFFIX,stripe.com,openai  
+
+  - DOMAIN-SUFFIX,tiktok.com,tiktok
+  - DOMAIN-SUFFIX,tiktokv.com,tiktok
+  - DOMAIN-SUFFIX,toktokcdn.com,tiktok
   
   - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择

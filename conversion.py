@@ -120,13 +120,18 @@ for country in countries:
     proxy_group.append(group)
 
 # 加入openai等特定分类
-group = {}
-group['name'] = 'openai'
-group['type'] = 'select'
-group['proxies'] = datamy['proxy-groups'][0]['proxies'][1:] # 去除香港
-group['interval'] = INTERVAL
-group['url'] = URL
-proxy_group.append(group)
+def add_group(name='openai',type='select',proxies=datamy['proxy-groups'][0]['proxies'][1:] ):
+    group = {}
+    group['name'] = name
+    group['type'] = type
+    group['proxies'] = proxies # 去除香港
+    group['interval'] = INTERVAL
+    group['url'] = URL
+    proxy_group.append(group)
+
+add_group(name='openai')
+add_group(name='tiktok')
+
 
 datamy['proxy-groups'] = proxy_group
 
