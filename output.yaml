@@ -50,7 +50,7 @@ proxy-groups:
   type: select
   proxies: &id001
   - 剩余流量：123.63 GB
-  - 距离下次重置剩余：2 天
+  - 距离下次重置剩余：1 天
   - 套餐到期：2026-02-28
   - 【永久域名Tafog.com】
   - Bronze-香港-BGP-01
@@ -150,7 +150,7 @@ proxy-groups:
   type: url-test
   proxies:
   - 剩余流量：123.63 GB
-  - 距离下次重置剩余：2 天
+  - 距离下次重置剩余：1 天
   - 套餐到期：2026-02-28
   - 【永久域名Tafog.com】
   - Silver-泰国-商宽-01
@@ -841,7 +841,7 @@ proxies:
   password: b506e93c-61bf-4ab3-b2cb-6aa202fa7064
   udp: true
   sni: ld.xgzl02.yuiuingkig.icu
-- name: 距离下次重置剩余：2 天
+- name: 距离下次重置剩余：1 天
   type: trojan
   server: zz.xgzl.fogvip-zz.uk
   port: 50069
