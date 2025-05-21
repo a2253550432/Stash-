@@ -49,8 +49,8 @@ proxy-groups:
 - name: 手动切换
   type: select
   proxies: &id001
-  - 剩余流量：83 GB
-  - 距离下次重置剩余：8 天
+  - 剩余流量：76.71 GB
+  - 距离下次重置剩余：7 天
   - 套餐到期：2026-02-28
   - 【永久域名Tafog.com】
   - Bronze-香港-BGP-01
@@ -149,8 +149,8 @@ proxy-groups:
 - name: 其他
   type: url-test
   proxies:
-  - 剩余流量：83 GB
-  - 距离下次重置剩余：8 天
+  - 剩余流量：76.71 GB
+  - 距离下次重置剩余：7 天
   - 套餐到期：2026-02-28
   - 【永久域名Tafog.com】
   - Silver-泰国-商宽-01
@@ -834,34 +834,34 @@ rules:
 - GEOIP,CN,DIRECT
 - MATCH,节点选择
 proxies:
-- name: 剩余流量：83 GB
+- name: 剩余流量：76.71 GB
   type: trojan
-  server: zz.xgzl.fogvip-zz.uk
-  port: 50069
+  server: zz.xgys.fogvip-zz.uk
+  port: 40052
   password: b506e93c-61bf-4ab3-b2cb-6aa202fa7064
   udp: true
-  sni: ld.xgzl02.yuiuingkig.icu
-- name: 距离下次重置剩余：8 天
+  sni: ld.xgys01.yuiuingkig.icu
+- name: 距离下次重置剩余：7 天
   type: trojan
-  server: zz.xgzl.fogvip-zz.uk
-  port: 50069
+  server: zz.xgys.fogvip-zz.uk
+  port: 40052
   password: b506e93c-61bf-4ab3-b2cb-6aa202fa7064
   udp: true
-  sni: ld.xgzl02.yuiuingkig.icu
+  sni: ld.xgys01.yuiuingkig.icu
 - name: 套餐到期：2026-02-28
   type: trojan
-  server: zz.xgzl.fogvip-zz.uk
-  port: 50069
+  server: zz.xgys.fogvip-zz.uk
+  port: 40052
   password: b506e93c-61bf-4ab3-b2cb-6aa202fa7064
   udp: true
-  sni: ld.xgzl02.yuiuingkig.icu
+  sni: ld.xgys01.yuiuingkig.icu
 - name: 【永久域名Tafog.com】
   type: trojan
-  server: zz.xgzl.fogvip-zz.uk
-  port: 50069
+  server: zz.xgys.fogvip-zz.uk
+  port: 40052
   password: b506e93c-61bf-4ab3-b2cb-6aa202fa7064
   udp: true
-  sni: ld.xgzl02.yuiuingkig.icu
+  sni: ld.xgys01.yuiuingkig.icu
 - name: Bronze-香港-BGP-01
   type: trojan
   server: zz.xg01.fogvip-zz.uk
