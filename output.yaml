@@ -49,8 +49,8 @@ proxy-groups:
 - name: 手动切换
   type: select
   proxies: &id001
-  - 剩余流量：8 GB
-  - 距离下次重置剩余：10 天
+  - 剩余流量：-2.05 GB
+  - 距离下次重置剩余：9 天
   - 套餐到期：2026-02-28
   - 【永久域名Tafog.com】
   - Bronze-香港-BGP-01
@@ -64,7 +64,7 @@ proxy-groups:
   - Bronze-新加坡-onep-01
   - Bronze-美国-onep-01
   - Bronze-美国-onep-02
-  - Bronze-美国-Los-03
+  - Bronze-美国-CHI-03
   - Silver-香港-HKG-01
   - Silver-香港-HKG-02
   - Silver-香港-BGP-03
@@ -139,7 +139,7 @@ proxy-groups:
   proxies:
   - Bronze-美国-onep-01
   - Bronze-美国-onep-02
-  - Bronze-美国-Los-03
+  - Bronze-美国-CHI-03
   - Silver-美国-Host-01
   - Silver-美国-BGP-02
   - Silver-美国-CN2-03
@@ -149,8 +149,8 @@ proxy-groups:
 - name: 其他
   type: url-test
   proxies:
-  - 剩余流量：8 GB
-  - 距离下次重置剩余：10 天
+  - 剩余流量：-2.05 GB
+  - 距离下次重置剩余：9 天
   - 套餐到期：2026-02-28
   - 【永久域名Tafog.com】
   - Silver-泰国-商宽-01
@@ -834,14 +834,14 @@ rules:
 - GEOIP,CN,DIRECT
 - MATCH,节点选择
 proxies:
-- name: 剩余流量：8 GB
+- name: 剩余流量：-2.05 GB
   type: trojan
   server: zz.xgys.fogvip-zz.uk
   port: 40052
   password: b506e93c-61bf-4ab3-b2cb-6aa202fa7064
   udp: true
   sni: ld.xgys01.yuiuingkig.icu
-- name: 距离下次重置剩余：10 天
+- name: 距离下次重置剩余：9 天
   type: trojan
   server: zz.xgys.fogvip-zz.uk
   port: 40052
@@ -939,7 +939,7 @@ proxies:
   password: b506e93c-61bf-4ab3-b2cb-6aa202fa7064
   udp: true
   sni: ld.mgxyt.yuiuingkig.icu
-- name: Bronze-美国-Los-03
+- name: Bronze-美国-CHI-03
   type: trojan
   server: zz.usa02.fogvip-zz.uk
   port: 40044
