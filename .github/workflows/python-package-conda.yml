@@ -1,8 +1,8 @@
 name: Run conversion.py and upload file
 
 on:
-  schedule:
-    - cron: '0 6 * * *'  # 每天 UTC 时间 6:00 运行（可根据需求调整）
+  # schedule:
+  #   - cron: '0 6 * * *'  # 每天 UTC 时间 6:00 运行（可根据需求调整）
   workflow_dispatch:      # 支持手动触发
 
 jobs:
